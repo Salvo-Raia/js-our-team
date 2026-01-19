@@ -1,0 +1,9 @@
+
+/* Card Style */
+.member-image img {
+    height: 150px;
+}
+
+.member-card a {
+    color: #00aeff;
+}
