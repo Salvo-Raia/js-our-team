@@ -1,5 +1,18 @@
 
+.personal-container {
+    width: 1800px;
+    margin: 0 auto;
+}
+
 /* Card Style */
+#team-cards-container {
+    gap: 20px;
+}
+
+.member-card {
+  flex-basis: calc(100% /3 - 15px * 3 /2);
+}
+
 .member-image img {
     height: 150px;
 }

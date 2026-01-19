@@ -4,7 +4,7 @@ const teamMembers = [
     name: "Marco Bianchi",
     role: "Designer",
     email: "marcobianchi@team.com",
-    img: "img/male1.png"
+    img: "./img/male1.png"
   },
   {
     name: "Laura Rossi",
@@ -39,9 +39,12 @@ const teamMembers = [
 ];
 
 /* DOM Elements */ 
-const teamCardElement = document.getElementById("team-cards-container"); 
-const cardHtml = generateMemberCard(member);
+const teamCardsContainer = document.getElementById("team-cards-container"); 
 
+for (const singleMember of teamMembers) {
+const cardHtml = generateMemberCard(singleMember)
+teamCardsContainer.innerHTML += cardHtml;
+}
 
 /* Functions */
 /**
@@ -50,13 +53,13 @@ const cardHtml = generateMemberCard(member);
  * @returns {string} A string ready to be printed into DOM, full with object properties destructurate into variables.
  */
 function generateMemberCard (member) {
-    const {name, role, img} = member; 
-const cardHtml = `<div class="member-card d-flex align-items-center gap-3 text-white bg-dark">
+    const {name, role, img, email} = member; 
+const cardHtml = `<div class="member-card d-flex align-items-center gap-3 text-white bg-dark p-0 mx-1">
                     <div class="member-image">
-                      <img src="./img/${img}" alt="${name}">
+                      <img src="${img}" alt="${name}">
                     </div>
                     <div class="member-info d-flex flex-column gap-3">
-                      <h3 class="m-0">${nome}</h3>
+                      <h3 class="m-0">${name}</h3>
                       <p class="m-0">${role}</p>
                       <address class="m-0"><a href="#">${email}</a></address> 
                     </div>
