@@ -20,3 +20,8 @@
 .member-card a {
     color: #00aeff;
 }
+
+/* Form */ 
+input {
+    max-width: 30%;
+}
