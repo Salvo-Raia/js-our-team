@@ -30,3 +30,19 @@ h1 {
 input {
     max-width: 30%;
 }
+
+/* Media Query */ 
+
+@media screen and (max-width: 576px) {
+#team-cards-container {
+    flex-direction: column;
+    gap: 5px;
+}
+    .member-card {
+        width: 100%;
+    }
+
+    input {
+        max-width: 100%;
+    }
+}
