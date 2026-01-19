@@ -1,7 +1,12 @@
 
-.personal-container {
-    width: 1800px;
-    margin: 0 auto;
+/* Generics */ 
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+    color: rgb(247, 61, 138);
+    font-weight: 800;
 }
 
 /* Card Style */
@@ -10,11 +15,11 @@
 }
 
 .member-card {
-  flex-basis: calc(100% /3 - 15px * 3 /2);
+  flex-basis: calc(100% /3 - 20px * 3 /2);
 }
 
 .member-image img {
-    height: 150px;
+    height: 100px;
 }
 
 .member-card a {

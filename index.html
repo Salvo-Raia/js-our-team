@@ -9,17 +9,22 @@
     crossorigin="anonymous">
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     <title>About our team</title>
 </head>
 
 <body>
-    <header>
-        <h1></h1>
+    <header class="text-center my-4">
+        <h1>Meet our Team</h1>
     </header>
 
     <main>
-     <div class="personal-container">
-        <div id="team-cards-container" class="d-flex justify-content-center flex-wrap">
+     <div class="container my-4">
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur ipsa cupiditate repudiandae debitis velit cum. Molestiae consequuntur dolorem aut?</p>
+        <div id="team-cards-container" class="d-flex justify-content-center flex-wrap my-5">
             <!-- Layout card (da riproporre con JS) 
             <div class="member-card d-flex justify-content-between align-items-center gap-3 text-white bg-dark">
                 <div class="member-image">
@@ -32,20 +37,22 @@
                 </div>
             </div> -->
         </div>
-        <form class="d-flex flex-column justify-content-center align-items-center gap-2 text-center mt-4">
+        <form id="add-new-member" class="d-flex flex-column justify-content-center align-items-center gap-2 text-center mt-4">
             <label for="new-member-name">Nome nuovo membro</label>
             <input id="new-member-name" class="form-control" type="text" name="new-member-name" required>
             <label for="new-member-role">Ruolo nuovo membro</label>
             <input id="new-member-role" class="form-control" type="text" name="new-member-role" required>
             <label for="new-member-mail">E-mail nuovo membro</label>
             <input id="new-member-mail" class="form-control" type="text" name="new-member-mail" required>
-            <button type="submit" class="btn btn-success">Aggiungi</button>
-            
+            <label for="new-member-image">Inserisci percorso immagine</label>
+            <input id="new-member-image" class="form-control" type="text" name="new-member-image" placeholder="img/" required>
+            <button type="submit" class="btn btn-success">Aggiungi</button> 
         </form>
      </div>
     </main>
     
-<!-- JS Script -->
+<!-- JS Scripts -->
+ <script src="./js/functions.js"></script>
  <script src="./js/script.js"></script>
 </body>
 </html>
