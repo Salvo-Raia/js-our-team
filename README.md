@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 28/50 - Our Team
+# 🎓 Exercise 28/50: Our Team
+
+Building a dynamic team page that displays member cards from an array of objects, using JavaScript and DOM manipulation, with a responsive layout and a form to add new members.
 
 ## 📌 Project Overview
 
@@ -19,18 +21,18 @@ The page must display **a card for each team member**, using the information pro
 
 The team array can be found in the attached exercise folder.
 
-### 🎨 Design
+### 🔎 Notes
 
 - Use **Fredoka** as the page font.
 - Create a card-based layout to display the team members.
 
-## ⭐ Bonus
+### ⭐ Bonus
 
-### 1. Responsive Layout
+#### 1. Responsive Layout
 
 Make the page responsive, allowing the cards to wrap onto new rows as the available screen space changes.
 
-### 2. Add New Team Members
+#### 2. Add New Team Members
 
 Create a form that allows users to add new members to the team.
 
@@ -53,4 +55,4 @@ You can use any photo you like for the new member - even one of your own, if you
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
