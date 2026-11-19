@@ -1,19 +1,16 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 28/50: Our Team
+# Exercise 28/50: Our Team
 
 Building a dynamic team page that displays member cards from an array of objects, using JavaScript and DOM manipulation, with a responsive layout and a form to add new members.
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | `js-our-team` |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 28/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-our-team | Our Team | Exercise | JavaScript DOM manipulation, dynamic rendering & Forms | 28/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Create a dedicated team page for a company, starting from an array of objects representing its members.
 
@@ -21,30 +18,21 @@ The page must display **a card for each team member**, using the information pro
 
 The team array can be found in the attached exercise folder.
 
-### 🔎 Notes
+#### Bonus challenge 
 
-- Use **Fredoka** as the page font.
-- Create a card-based layout to display the team members.
+- Make the page responsive, allowing the cards to wrap onto new rows as the available screen space changes.
 
-### ⭐ Bonus
-
-#### 1. Responsive Layout
-
-Make the page responsive, allowing the cards to wrap onto new rows as the available screen space changes.
-
-#### 2. Add New Team Members
-
-Create a form that allows users to add new members to the team.
+- Create a form that allows users to add new members to the team.
 
 When the form is submitted, the new member must be displayed on the page as an additional card.
 
-You can use any photo you like for the new member - even one of your own, if you want to feel part of the team! 😀
+You can use any photo you like for the new member - even one of your own, if you want to feel part of the team! 
 
-## 🛠️ Technologies
+## Technologies
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 💡 What I Learned
+## What I learned
 
 - Working with arrays of objects.
 - Dynamically generating HTML elements from JavaScript data.
@@ -53,6 +41,6 @@ You can use any photo you like for the new member - even one of your own, if you
 - Handling form submissions and user input.
 - Dynamically adding new objects and updating the page.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
