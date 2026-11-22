@@ -8,7 +8,7 @@ Building a dynamic team page that displays member cards from an array of objects
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-our-team | Our Team | Exercise | JavaScript DOM manipulation, dynamic rendering & Forms | 28/50 |
+| js-our-team | Our Team | Exercise | JavaScript DOM manipulation, dynamic rendering & Form | 28/50 |
 
 ## Assignment
 
@@ -20,6 +20,8 @@ The team array can be found in the attached exercise folder.
 
 #### Bonus challenge 
 
+Try to implement the following additional features.
+
 - Make the page responsive, allowing the cards to wrap onto new rows as the available screen space changes.
 
 - Create a form that allows users to add new members to the team.
@@ -30,7 +32,9 @@ You can use any photo you like for the new member - even one of your own, if you
 
 ## Technologies
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ## What I learned
 
