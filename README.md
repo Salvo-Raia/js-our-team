@@ -8,7 +8,7 @@ Building a dynamic team page that displays member cards from an array of objects
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-our-team | Our Team | Exercise | JavaScript DOM manipulation, dynamic rendering & Form | 28/50 |
+| js-our-team | Our Team | Exercise | JavaScript, DOM manipulation, dynamic rendering & Form | 28/50 |
 
 ## Assignment
 
