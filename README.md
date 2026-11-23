@@ -8,7 +8,7 @@ Building a dynamic team page that displays member cards from an array of objects
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-our-team | Our Team | Exercise | JavaScript, DOM manipulation, dynamic rendering & Form | 28/50 |
+| js-our-team | Our Team | Exercise | JavaScript, DOM manipulation, dynamic rendering, form | 28/50 |
 
 ## Assignment
 
@@ -18,7 +18,7 @@ The page must display **a card for each team member**, using the information pro
 
 The team array can be found in the attached exercise folder.
 
-#### Bonus challenge 
+#### Bonus challenge
 
 Try to implement the following additional features.
 
@@ -27,7 +27,7 @@ Try to implement the following additional features.
 
 When the form is submitted, the new member must be displayed on the page as an additional card.
 
-You can use any photo you like for the new member - even one of your own, if you want to feel part of the team! 
+You can use any photo you like for the new member - even one of your own, if you want to feel part of the team!
 
 ## Technologies
 
