@@ -23,7 +23,6 @@ The team array can be found in the attached exercise folder.
 Try to implement the following additional features.
 
 - Make the page responsive, allowing the cards to wrap onto new rows as the available screen space changes.
-
 - Create a form that allows users to add new members to the team.
 
 When the form is submitted, the new member must be displayed on the page as an additional card.
